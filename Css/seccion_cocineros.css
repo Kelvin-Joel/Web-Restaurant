@@ -1,0 +1,20 @@
+.seccion_cocineros{
+    width: 90%;
+    margin: auto;
+}
+.items_cocineros{
+    height: 80%;
+    width: 100%;
+}
+.box_cocineros{
+    height: 300px;
+    width: 250px;
+}
+.box_cocineros img{
+    height: 250px;
+    width: 220px;
+    object-fit: cover;
+}
+.title_cocineros span{
+    color: rgb(228, 17, 17);
+}

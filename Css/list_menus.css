@@ -1,0 +1,24 @@
+.list_menus{
+    width: 90%;
+    margin: auto;
+}
+.list_platos{
+    height: 80%;
+    width: 100%;
+    
+}
+.items_platos{
+    height: 290px;
+    width:270px;
+    background-color: #fff;
+   box-shadow:  0 5px 35px rgba(0,0,0,0.08);
+}
+.title_menus span{
+    margin-left: 10px;
+    color: rgb(228, 17, 17);
+}
+.items_platos img{
+    height: 220px;
+    width: 220px;
+    object-fit: cover;
+}

@@ -1,0 +1,57 @@
+.portada {
+    height: 100vh;
+    width: 100%;
+    background-image: url("/IMG/FONDO_PORTADA.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .info_portada {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .text-portada {
+    width: 40%;
+  }
+  .text_main {
+    width: 60%;
+  }
+  
+  .btn-portada{
+    background-color: rgb(228, 17, 17);
+    cursor: pointer;
+    text-decoration: none;
+  }
+  @media (min-width:320px)
+  {
+    .text-portada{
+        width: 90%;
+    }
+    .title_portada{
+      font-size: 2.2em;
+  }
+  }
+
+  @media (min-width:768px)
+  {
+    .title_portada{
+      font-size: 2.3em;
+  }
+  }
+
+  @media (min-width:1025px)
+  {
+    /* .title_portada{
+        font-size: 6em;
+    } */
+    .title_portada{
+      font-size: 2.4em;
+  }
+    .title_portada{
+        font-size: 5em;
+        margin-bottom: 30px;
+    }
+    .text-portada{
+        width: 57%;
+    }
+  }
